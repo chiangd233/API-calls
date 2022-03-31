@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+    <script defer src = 'js/script.js'></script>
+    <link rel = 'stylesheet' href="css/style.css">
+    <title>Food API</title>
+</head>
+<body>
+    <div class = "header">
+        <h1>Food API</h1>
+    </div>
+   <div class = "body">
+       <p>Click here to see a picture of a Food!</p>
+   </div>
+   <div class ='forms'>
+        <form class = 'random'>
+            <div class = 'input'>
+                <input type = 'submit' value = "Random Food Image" />
+            </div>
+        </form>
+   </div>
+   <div class = "input">
+       <dl>
+           <dt>Food Image:</dt>
+           <dd id = "image"></dd>
+       </dl>
+   </div>
+
+    <div class = "header">
+        <h1>Crypto Search</h1>
+    </div>
+    <div class = "body">
+    <p>Search below for a Cryptocurrency!</p>
+    </div>
+    <div class ='forms'>
+        <form class = 'crypto'>
+            <div class = 'input'>
+                <input type = 'text' placeholder = 'cryptocurrency' /> </br>
+                <input type = 'submit' value = "Search" />
+            </div>
+        </form>
+    </div>
+    <div class = "input">
+    <dl>
+        <dt>Cryptocurrency:</dt>
+        <dd id = "name"></dd>
+        <dt>Symbol:</dt>
+        <dd id = "symbol"></dd>
+        <dt>rank:</dt>
+        <dd id = "rank"></dd>
+        <dt>Price:</dt>
+        <dd id = "price"></dd>
+    </dl>
+    </div>
+</body>
+</html>
